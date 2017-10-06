@@ -15,7 +15,7 @@ public class Capitulo2 {
 
 		percorrerComClasseConsumer(usuarios);
 
-		percorrerComClasseDiscreta(usuarios);
+		percorrerComClasseInterna(usuarios);
 
 		percorrerComClasseLambda(usuarios);
 
@@ -59,9 +59,9 @@ public class Capitulo2 {
 
 	}
 
-	private static void percorrerComClasseDiscreta(List<Usuario> usuarios) {
+	private static void percorrerComClasseInterna(List<Usuario> usuarios) {
 
-		// PERCORRER COM CLASSE DISCRETA
+		// PERCORRER COM CLASSE INTERNA ANONIMA
 		System.out.println("\nPERCORRER COM CLASSE DISCRETA:");
 		usuarios.forEach(new Consumer<Usuario>() {
 
